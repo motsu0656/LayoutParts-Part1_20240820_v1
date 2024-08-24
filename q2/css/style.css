@@ -1,18 +1,60 @@
 @charset "UTF-8";
+/* 回答はここから */
+
+.title {
+  font-size: 30px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 40px 0;
+  font-weight: bold;
+}
+
+.sub--title {
+  font-size: 24px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 40px 0;
+  font-weight: bold;
+}
+
+.question--title {
+  font-size: 20px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 40px 0;
+  font-weight: bold;
+}
 
 .list {
   display: flex;
   justify-content: center;
 }
 
+ol, ul {
+  list-style: none;
+}
 
 .list--card {
   list-style: none;
   width: 200px;
-  margin: 30px;
+  margin: 0 30px 0;
   outline: 10px solid #655;
   box-shadow: 0 0 0 6px #655;
   border-radius: 13px;
   padding: 10px;
   background: #d2b48c;
+}
+
+.list--card:first-of-type{
+  margin-left: 0;
+}
+
+.list--card:last-of-type{
+  margin-right: 0;
 }
